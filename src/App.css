@@ -1,0 +1,150 @@
+body {
+ font-family: Roboto,"Noto Sans",system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,"Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: x-large;
+}
+
+h3 {
+  font-size: 1.6rem;
+  padding: 0 3rem;
+  font-weight: 700 !important;
+  margin-bottom: 0 !important;
+  color: #023047 !important;
+}
+
+.logo h3 {
+  padding: 0;
+}
+
+h3 span {
+  color: #fb8602;
+}
+
+p {
+ color: #9a8e8e;
+ font-size: medium;
+ padding-bottom: 1.5rem ;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  padding: 1rem 5rem 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  box-shadow:8px -7px 14px #b0b1b4;
+}
+
+.btndiv{
+  margin-left: auto;
+}
+
+.btndiv button {
+  margin-right: 1rem;
+}
+
+.page  {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 4.5rem);
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+button {
+ background-color: #023047 !important;
+ color: #fff !important;
+ border-radius: 3px !important;
+}
+
+button:hover {
+  color: #023047 !important;
+  outline: 2px #023047 !important;
+  border-color: #023047 !important ;
+  background-color: transparent !important;
+}
+
+.ant-btn-lg {
+  padding: 0 3rem !important;
+}
+
+.t{
+ background-color: #fb8602 !important ;
+ color: #fff !important;
+ border-radius: 3px ;
+}
+
+.t:hover{
+
+  color: #fb8602 !important;
+  outline: 2px #fb8602 !important;
+  border-color: #fb8602  !important;
+  background-color: transparent ;
+}
+
+.bgimg {
+  background-image: url(./features.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #023047;
+  width: calc(100vw - 35.5rem);
+  height: calc(100vh - 4.5rem);
+}
+
+.ant-space {
+  display: block !important;
+}
+
+.inputdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin {
+  padding: 0 4rem 0 6.5rem;
+}
+
+.signin h3 {
+  font-size: 2.3rem;
+}
+
+.ant-checkbox:hover {
+  border-color: #023047 !important;
+}
+
+.ant-input {
+ padding: .3rem 1rem !important;
+ font-size: 1rem !important;
+}
+
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #023047 !important;
+  border-color: #023047 !important;
+}
+
+.antd-rem {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+@media only screen and (max-width : 800px) {
+  .bgimg {
+    display: none;
+  }
+  .btndiv {
+    display: none;
+  }
+  .page {
+    justify-content: center;
+  }
+  .signin {
+    padding: 0 5rem;
+  }
+}
